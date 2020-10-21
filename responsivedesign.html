@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Responsive Web Design</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>RESPONSIVE</h1>
+            <nav>  
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+                <a class="nav_item">Home</a>
+                <a class="nav_item">About us</a>
+                <a class="nav_item">Contact</a>
+            </nav>
+        </header>
+        <main>
+            <section class="main_text">
+                <div>
+                   <h1>THIS IS A TITLE</h1>
+                   <h3>This is a different title</h3>
+                </div>
+                <div>
+                   <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu fermentum mi. Mauris pellentesque, dolor sit amet faucibus consectetur, nulla eros malesuada ipsum, eu gravida sem metus at erat.
+                    Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer ut faucibus libero. 
+                    Etiam interdum orci et orci sodales ultricies. Aenean euismod ac libero eu vestibulum. Proin a ornare ex. Sed a maximus orci. Mauris mollis tempor dapibus. Nam mollis luctus posuere. 
+                   </p>
+                   <p> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla fermentum est in erat eleifend facilisis. 
+                    Praesent tempor nec libero id ultricies.
+                   </p>    
+                   <p> Aenean ut posuere justo, id vehicula velit. Aliquam erat volutpat. In sit amet mi vel massa elementum sagittis et et est. 
+                    Curabitur auctor facilisis orci, vitae auctor lorem pharetra at. 
+                   </p>
+                </div>
+            </section>
+            <section class="imagessection">
+                    <img src="img/chicago.jpg" alt="chicago">
+                    <img src="img/hawaii.jpg" alt="hawaii">
+                    <img src="img/houston.jpg" alt="houston">
+                    <img src="img/la.jpg" alt="la">
+                    <img src="img/miami.jpg" alt="miami">
+                    <img src="img/neworleans.jpg" alt="neworleans">
+                    <img src="img/newyork.jpg" alt="newyork">
+                    <img src="img/oklahoma_city.jpg" alt="oklahoma_city">
+                    <img class="hidden" src="img/washington.jpg" alt="washington">
+            </section>
+        </main>
+       <section class="texts">
+            <h1>
+                NOVEDADES
+            </h1>
+            <article>
+                <h2>Article 1</h2>
+                <h4>Subtitle of article</h4>
+                <p>Aenean ut posuere justo, id vehicula velit. Aliquam erat volutpat. In sit amet mi vel massa elementum sagittis et et est. 
+                        Curabitur auctor facilisis orci, vitae auctor lorem pharetra at. 
+                </p>
+            </article>
+            <article>
+                <h2>Article 2</h2>
+                <h4>Subtitle of article</h4>
+                <p>Aenean ut posuere justo, id vehicula velit. Aliquam erat volutpat. In sit amet mi vel massa elementum sagittis et et est. 
+                        Curabitur auctor facilisis orci, vitae auctor lorem pharetra at. 
+                </p>
+            </article>
+            <article>
+                <h2>Article 3</h2>
+                <h4>Subtitle of article</h4>
+                <p>Aenean ut posuere justo, id vehicula velit. Aliquam erat volutpat. In sit amet mi vel massa elementum sagittis et et est. 
+                        Curabitur auctor facilisis orci, vitae auctor lorem pharetra at. 
+                </p>
+            </article>
+        </section>
+    </div>
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>   
+</body>
+</html>
